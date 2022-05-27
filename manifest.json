@@ -1,0 +1,21 @@
+{
+    "name": "eLearn++",
+    "version": "1.0.0",
+    "description": "Provides a better eLearn view",
+    "manifest_version": 3,
+    "author": "Shahmir Varqha",
+    "background": {
+        "service_worker": "background.js"
+    },
+    "permissions": ["storage"],
+    "action":{
+        "default_popup": "popup.html",
+        "default_title": "eLearn++",
+        "default_icon": {
+            "16": "/images/pencil-icons/pencil16.png",
+            "32": "/images/pencil-icons/pencil32.png",
+            "64": "/images/pencil-icons/pencil64.png",
+            "128": "/images/pencil-icons/pencil128.png"
+        }
+    }
+}
