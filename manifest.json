@@ -7,9 +7,8 @@
     "background": {
         "service_worker": "background.js"
     },
-    "permissions": ["storage"],
     "action":{
-        "default_popup": "popup.html",
+        "default_popup": "popup/popup.html",
         "default_title": "eLearn++",
         "default_icon": {
             "16": "/images/pencil-icons/pencil16.png",
@@ -17,5 +16,19 @@
             "64": "/images/pencil-icons/pencil64.png",
             "128": "/images/pencil-icons/pencil128.png"
         }
-    }
+    },
+    "icons": {
+        "16": "/images/pencil-icons/pencil16.png",
+        "32": "/images/pencil-icons/pencil32.png",
+        "64": "/images/pencil-icons/pencil64.png",
+        "128": "/images/pencil-icons/pencil128.png"
+    },
+    "content_scripts": [{
+        "matches": ["https://elearn.sunway.edu.my/*"],
+        "css": ["themes/darkMode.css"]
+    }],
+    "permissions": [
+        "storage", 
+        "https://elearn.sunway.edu.my/*"
+    ]
 }
