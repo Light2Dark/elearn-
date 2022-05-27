@@ -17,6 +17,7 @@
             "128": "/images/pencil-icons/pencil128.png"
         }
     },
+    "options_page": "options/options.html",
     "icons": {
         "16": "/images/pencil-icons/pencil16.png",
         "32": "/images/pencil-icons/pencil32.png",

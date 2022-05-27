@@ -1,0 +1,17 @@
+:root {
+    --bg: #354259;
+    --fg: #ECE5C7;
+}
+
+#main-content, #main-content * {
+    background-color: var(--bg) !important;
+    color: var(--fg);
+}
+
+header {
+    background-color: var(--bg) !important;
+}
+
+h1 {
+    color: var(--fg) !important;
+}

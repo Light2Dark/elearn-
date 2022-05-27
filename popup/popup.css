@@ -1,4 +1,10 @@
+:root {
+    --bg: #354259;
+    --text: rgb(255, 214, 221);
+}
+
 body {
-    background-color: black;
-    color: rgb(214, 214, 214);
+    background-color: var(--bg);
+    color: var(--text);
+    width: 200px;
 }
