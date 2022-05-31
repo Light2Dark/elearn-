@@ -30,6 +30,9 @@
     }],
     "permissions": [
         "storage", 
-        "https://elearn.sunway.edu.my/*"
+        "https://elearn.sunway.edu.my/*",
+        "activeTab",
+        "scripting",
+        "tabs"
     ]
 }

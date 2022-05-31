@@ -3,8 +3,33 @@
     --text: rgb(255, 214, 221);
 }
 
+* {
+    font-family: "Oxygen", sans-serif;
+}
+
+html, body {
+    box-sizing: border-box;
+}
+
 body {
     background-color: var(--bg);
     color: var(--text);
-    width: 200px;
+    width: 230px;
+}
+
+h2 {
+    padding: 2px 0px 0px 0px;
+    margin: 0;
+    margin-bottom: 15px;
+    font-size: 1.4em;
+}
+
+label {
+    font-size: 1.2em;
+}
+
+select {
+    border: none;
+    border-radius: 5px;
+    margin-left: 10px;
 }
