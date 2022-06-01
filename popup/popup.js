@@ -1,10 +1,10 @@
-chrome.storage.sync.get("theme", ({ theme }) => {
-    console.log("theme is", theme)
-});
-
-console.log(chrome.tabs.Tab)
-
 let selectMenu = document.getElementById("theme")
+
 selectMenu.addEventListener("change", async () => {
-    console.log(chrome.tabs.Tab)
+    let theme = selectMenu.value
+    chrome.storage.sync.set({theme})
+    console.log("new theme set " + theme)
+
+    let [tab] = await chrome.tabs.query({url: "https://elearn.sunway.edu.my/*"})
+    chrome.tabs.reload(tabID=tab.id)
 })
