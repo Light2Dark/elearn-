@@ -1,17 +1,36 @@
 :root {
-    --bg: #354259;
-    --fg: #ECE5C7;
+    --bg: #00294e;
+    --fg: #F4F2F3;
+    --purple: #C46BAE;
 }
 
-#main-content, #main-content * {
+#main-content, #main-content *:not(.guidance-overflow-wrapper) {
     background-color: var(--bg) !important;
     color: var(--fg);
+    /* font-family: fangsong, sans-serif; */
 }
 
-header {
-    background-color: var(--bg) !important;
+/* ADDITIVE CSS */
+.date, .time {
+    color: rgb(255, 139, 139) !important;
 }
 
-h1 {
-    color: var(--fg) !important;
+
+/* CORRECTIVE CSS */
+
+.bb-inner-wrap>header, #side-menu {
+    background-color: black !important;
+}
+
+/* Show All Button */
+#filter-stream-value {
+    color: var(--purple) !important;
+}
+.base-header .select-value:after {
+    border-top-color: var(--purple) !important;
+}
+
+/* Hover over items css */
+.base-recent-activity .activity-stream .activity-group .stream-item:hover:before {
+    opacity: 0 !important;
 }

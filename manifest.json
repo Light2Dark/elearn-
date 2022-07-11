@@ -27,7 +27,11 @@
     "content_scripts": [{
         "matches": ["https://elearn.sunway.edu.my/*"],
         "css": ["themes/base.css"],
-        "js": ["content.js"]
+        "js": ["content.js"],
+        "run_at": "document_end"
+    }, {
+        "matches": ["https://elearn.sunway.edu.my/ultra/courses/*"],
+        "css": ["themes/base.css", "themes/courses.css"]
     }],
     "permissions": [
         "storage", 

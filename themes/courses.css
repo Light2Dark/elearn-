@@ -1,0 +1,15 @@
+:root {
+    --bg: #00294e;
+    --fg: #F4F2F3;
+    --purple: #C46BAE;
+}
+
+/* course tabs */
+#learn-oe-body, #breadcrumbs, #contentPanel, .isUltra * {
+    background-color: var(--bg) !important;
+    color: var(--fg) !important;
+}
+
+#shadow {
+    background-color: var(--bg) !important;
+}
