@@ -45,21 +45,59 @@ async function changeHeading() {
     mainHeading.parentNode.replaceChild(div, mainHeading)
 }
 
-changeHeading()
-
 async function changeiFrame() {
     await sleep(5000)
     console.log("changing iframe!")
 
     const newsItemsLink = document.getElementsByClassName("js-title-link")
+
     for (itemLink of newsItemsLink) {
-        itemLink.addEventListener("click", () => {
-            const iframe = document.getElementsByClassName("classic-learn-iframe")
-            
+        itemLink.addEventListener("click", (tab) => {
+                        
             // insert iframe css
+            // chrome.scripting.executeScript({
+            //     target: {tabID: tab.id},
+            //     files: ["themes/courses.css"]
+            // })
+            changeElems()
         })
     }
-
+    
+    
 }
 
-changeiFrame()
+async function changeElems() {
+    await sleep(5000)
+    const breadcrumbs = document.getElementById("breadcrumbs")
+    console.log(breadcrumbs)
+    breadcrumbs.style.backgroundColor="black"
+}
+
+// running change code
+changeHeading()
+// changeiFrame()
+
+// reset css priority
+
+function setToBlack(items) {
+    for (let i = 0; i < items.length; i++) {
+        items[i].style.backgroundColor = "black !important"
+    }
+}
+
+async function changeNav() {
+    await sleep(5000)
+    let navMenu = document.getElementById("menuWrap")
+    let paletteContent = document.querySelectorAll(".isUltra #courseMenuPalette div.navPaletteContent")
+    let links = document.querySelectorAll(".isUltra div.navPaletteContent ul li a")
+    let span = document.querySelectorAll(".isUltra #courseMenuPalette div.navPaletteContent ul li a span")
+
+    setToBlack(paletteContent)
+    setToBlack(links)
+    setToBlack(span)
+
+    navMenu.style.backgroundColor="black !important"
+}
+
+changeNav()
+

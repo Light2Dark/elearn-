@@ -3,4 +3,3 @@ chrome.runtime.onInstalled.addListener(() => {
         console.log("current theme is", theme)
     });
 });
-

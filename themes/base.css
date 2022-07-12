@@ -2,6 +2,7 @@
     --bg: #00294e;
     --fg: #F4F2F3;
     --purple: #C46BAE;
+    --greeny: #b3e19a;
 }
 
 /* FONTS */
@@ -36,8 +37,8 @@
 }
 
 /* Item title */
-.context.ellipsis a {
-    color: #b3e19a !important;
+.context.ellipsis a, .context.ellipsis bdi, .context.ellipsis span {
+    color: var(--greeny) !important;
     font-weight: bolder !important;
     font-size: 16px !important;
 }
@@ -52,6 +53,10 @@
 .bb-inner-wrap>header, #side-menu {
     background-color: black !important;
     font-family: "Poppins" !important;
+}
+
+h1.panel-title {
+    color: var(--greeny) !important;
 }
 
 /* Show All Button */

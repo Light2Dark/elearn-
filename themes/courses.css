@@ -2,14 +2,138 @@
     --bg: #00294e;
     --fg: #F4F2F3;
     --purple: #C46BAE;
+    --greeny: #b3e19a;
+    --lightpurple: #ead4e4
 }
 
 /* course tabs */
-#learn-oe-body, #breadcrumbs, #contentPanel, .isUltra * {
+/* #learn-oe-body, #breadcrumbs, #contentPanel, .isUltra * {
     background-color: var(--bg) !important;
+    color: var(--fg) !important;
+} */
+
+* {
+    font-family: "Poppins" !important;
+}
+
+/* TOP header */
+#breadcrumbs {
+    background-color: var(--bg) !important;
+}
+
+#breadcrumbs span {
     color: var(--fg) !important;
 }
 
-#shadow {
+#breadcrumbs #crumb_1 {
+    color: var(--greeny) !important;
+    font-size: 20px !important;
+}
+
+#contentPanel {
     background-color: var(--bg) !important;
 }
+
+/* Top header text */
+#pageTitleText, #pageTitleDiv h1, #pageTitleHeader #pageTitleText span { 
+    color: var(--lightpurple) !important;
+    font-weight: 700 !important;
+}
+
+/* Main container */
+.contentPane .shadow {
+    border-top: 2px solid black !important;
+}
+
+#containerdiv {
+    background-color: rgb(14, 14, 14) !important;
+    border: 0 !important;
+    border-radius: 10px !important;
+}
+
+/* Each column */
+.portlet.clearfix {
+    border-radius: 5px !important;
+    border: 1px solid black;
+    background-color: #d8d8d8;    
+}
+
+.portlet h2 {
+    background-color: #f7f7f7 !important;
+    color: var(--bg) !important;
+    font-size: 1.15 rem !important;
+}
+
+/* Content List */
+/* #content_listContainer li {
+
+} */
+
+.contentList > li {
+    margin: 0 !important;
+    border: none !important;
+    border-bottom: 1px solid rgb(0, 114, 0) !important;
+}
+
+.liItem:hover {
+    background-color: transparent !important;
+    border-top: 1px solid #f9948e !important;
+    border-bottom: 1px solid #f9948e !important;
+    border-radius: 5px !important;
+}
+
+.liItem:hover span {
+    text-decoration: underline !important;
+}
+
+.item h3 a span {
+    color: #ffbcdd !important;
+    font-size: 17px;
+    text-decoration: none !important;
+}
+
+.vtbegenerated {
+    color: white !important;
+}
+
+/* bg */
+.locationPane {
+    background-color: black !important;
+}
+
+/* Side Menu */
+#menuWrap, .menuWrap-inner, .navPaletteContent, .isUltra #courseMenuPalette div.navPaletteContent *, .isUltra #courseMenuPalette div.navPaletteContent ul li a span *, .isUltra div.navPaletteContent ul li a span * {
+    background-color: black !important;
+    background: black !important;
+}
+
+div.navPaletteContent ul li a span * {
+    background-color: black !important;
+}
+
+.isUltra div.navPaletteContent ul li a span:hover {
+    text-decoration: underline;
+   transition: all 0.5s ease-in-out;
+   transform: scale(1.02);
+}
+
+.isUltra #menuWrap div {
+    background-color: black !important;
+}
+
+#courseMenuPalette a {
+    background-color: black !important;
+}
+
+#puller {
+    background-color: var(--purple) !important;
+}
+
+#puller a {
+    background-color: var(--purple) !important;
+}
+
+#puller a:hover {
+    background-color: var(--greeny) !important;
+}
+
