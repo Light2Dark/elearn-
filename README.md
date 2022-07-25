@@ -16,7 +16,13 @@ To deploy this project locally:
 
 Contributions are always welcome!
 
-What you may want to edit and add are the themes under the [theme folder](https://github.com/Light2Dark/elearn-extension/tree/main/themes).
+If there's a critical issue, you can
+i) Open up an issue on GitHub and attach a picture with description of the issue
+ii) Email me about the issue
+
+I'm doing this for funn, soo may not be able to helpp, ye!
+
+If you wanna edit the files, you may want to edit the themes under the [theme folder](https://github.com/Light2Dark/elearn-extension/tree/main/themes).
 
 If you'd like to learn how to create or edit themes:  
 **[CSS Guide](https://developer.mozilla.org/en-US/docs/Learn/CSS)**
