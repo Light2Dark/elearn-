@@ -49,6 +49,7 @@
     background-color: rgb(14, 14, 14) !important;
     border: 0 !important;
     border-radius: 10px !important;
+    color: var(--fg) !important;
 }
 
 /* Each column */
@@ -96,34 +97,49 @@
     color: white !important;
 }
 
+.announcementInfo p span, .announcementInfo span {
+    color: var(--fg) !important;
+    font-weight: bolder;
+}
+
 /* bg */
 .locationPane {
-    background-color: black !important;
+    background-color: var(--bg) !important;
+}
+
+body {
+    background-color: var(--bg) !important;
 }
 
 /* Side Menu */
-#menuWrap, .menuWrap-inner, .navPaletteContent, .isUltra #courseMenuPalette div.navPaletteContent *, .isUltra #courseMenuPalette div.navPaletteContent ul li a span *, .isUltra div.navPaletteContent ul li a span * {
+/* rly difficult to change due to elearn's naturally important css */
+
+/* #menuWrap, .menuWrap-inner, .navPaletteContent, .isUltra #courseMenuPalette div.navPaletteContent *, .isUltra #courseMenuPalette div.navPaletteContent ul li a span *, .isUltra div.navPaletteContent ul li a span * {
     background-color: black !important;
     background: black !important;
-}
+} */
 
 div.navPaletteContent ul li a span * {
     background-color: black !important;
 }
 
 .isUltra div.navPaletteContent ul li a span:hover {
-    text-decoration: underline;
+text-decoration: underline;
    transition: all 0.5s ease-in-out;
    transform: scale(1.02);
 }
 
-.isUltra #menuWrap div {
+/* .isUltra #menuWrap div {
+    background-color: black !important;
+} */
+
+/* .clearfix span, .clearfix a {
     background-color: black !important;
 }
 
 #courseMenuPalette a {
     background-color: black !important;
-}
+} */
 
 #puller {
     background-color: var(--purple) !important;
@@ -137,3 +153,70 @@ div.navPaletteContent ul li a span * {
     background-color: var(--greeny) !important;
 }
 
+/* Individual page */
+.individualContent-link span {
+    color: white !important;
+}
+
+li.clearfix div.details span {
+    color: var(--lightpurple) !important;
+    font-weight: 800 !important;
+    font-size: 16px !important;
+    background-color: none !important;
+}
+
+li.clearfix h3.item,  .announcementList .item, .announcementList-read .item, #announcementList .item {
+    font-size: 20px !important;
+    color: #b8ddff !important;
+    background-color: none !important;
+}
+
+.announcementInfo p {
+    color: var(--greeny) !important;
+}
+
+.localViewToggle ul {
+    background-color: #91036e !important;
+}
+
+.localViewToggle a.active, #annFilter1Id a.active, ul.clearfix li.active a.active{
+    background-color: var(--bg) !important;
+    border: none !important;    
+}
+
+#annFilter1Id a, ul.clearfix li a {
+    background-color: black !important;
+}
+
+.localViewToggle a {
+    font-size: 100% !important;
+    color: lightblue !important;
+    text-decoration: underline !important;
+}
+
+.localViewToggle a, .localViewToggle a.active {
+    border-radius: 0 !important;
+}
+
+/* Grades tab */
+#grades_wrapper div {
+    color: var(--fg);
+}
+
+.gradeTableNew .calculatedRow.row, .gradeTableNew .calculatedRow.row {
+    border: none;
+    box-shadow: none !important;
+}
+
+.gradeTableNew .calculatedRow.row:hover {
+    background-color: black;
+}
+
+.eval-links .genericButton, .eval-links .button-4, .eval-links input[type="button"].genericButton {
+    padding: 8px !important;
+    border-radius: 10px;
+    background-color: var(--bg) !important;
+    border: none !important;
+    color: var(--fg) !important;    
+    margin-top: 10px;;
+}

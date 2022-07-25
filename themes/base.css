@@ -55,7 +55,7 @@
     font-family: "Poppins" !important;
 }
 
-h1.panel-title {
+h1.panel-title, #main-content h1, #main-content h1.panel-title {
     color: var(--greeny) !important;
 }
 
