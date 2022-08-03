@@ -101,3 +101,12 @@ async function changeNav() {
 
 changeNav()
 
+
+function changeTheme() {
+    chrome.scripting.executeScript(
+        {
+            files: ["./themes/darkMode.css"]
+        }
+    )
+}
+
