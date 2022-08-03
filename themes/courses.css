@@ -83,8 +83,13 @@
     border-radius: 5px !important;
 }
 
-.liItem:hover span {
+/* Content page links hover */
+/* .liItem:hover span {
     text-decoration: underline !important;
+} */
+
+.u_floatThis-left {
+    color: wheat !important;
 }
 
 .item h3 a span {
@@ -124,7 +129,7 @@ div.navPaletteContent ul li a span * {
 }
 
 .isUltra div.navPaletteContent ul li a span:hover {
-text-decoration: underline;
+    text-decoration: underline;
    transition: all 0.5s ease-in-out;
    transform: scale(1.02);
 }
@@ -158,7 +163,7 @@ text-decoration: underline;
     color: white !important;
 }
 
-li.clearfix div.details span {
+li.clearfix div.details span, .item.clearfix h3 span {
     color: var(--lightpurple) !important;
     font-weight: 800 !important;
     font-size: 16px !important;
@@ -186,6 +191,8 @@ li.clearfix h3.item,  .announcementList .item, .announcementList-read .item, #an
 
 #annFilter1Id a, ul.clearfix li a {
     background-color: black !important;
+    color: lightblue !important;
+    text-decoration: underline !important;
 }
 
 .localViewToggle a {
