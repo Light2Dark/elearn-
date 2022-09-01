@@ -30,6 +30,11 @@
     font-family: "Poppins" !important;
 }
 
+.base-courses.multi-column-view.course-org-list div {
+    border: 2px solid black;
+    border-radius: 5px;
+}
+
 /* ADDITIVE CSS */
 .date, .time {
     color: rgb(255, 139, 139) !important;
