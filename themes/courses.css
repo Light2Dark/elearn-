@@ -55,14 +55,21 @@
 /* Each column */
 .portlet.clearfix {
     border-radius: 5px !important;
-    border: 1px solid black;
+    border: none !important;
+    /* border: 1px solid black; */
     background-color: #d8d8d8;    
 }
 
 .portlet h2 {
-    background-color: #f7f7f7 !important;
-    color: var(--bg) !important;
+    /* background-color: #f7f7f7 !important;
+    color: var(--bg) !important; */
     font-size: 1.15 rem !important;
+    background-color: var(--bbdark) !important;
+    color: #c6d6ff !important;
+}
+
+.portlet h3 {
+    color: var(--bg) !important;
 }
 
 /* Content List */
@@ -164,10 +171,12 @@ div.navPaletteContent ul li a span * {
 }
 
 li.clearfix div.details span, .item.clearfix h3 span {
-    color: var(--lightpurple) !important;
-    font-weight: 800 !important;
+    /* color: var(--lightpurple) !important;
+    font-weight: 800 !important; */
     font-size: 16px !important;
     background-color: none !important;
+    color: white !important;
+    font-weight: 400 !important;
 }
 
 li.clearfix h3.item,  .announcementList .item, .announcementList-read .item, #announcementList .item {
@@ -226,4 +235,35 @@ li.clearfix h3.item,  .announcementList .item, .announcementList-read .item, #an
     border: none !important;
     color: var(--fg) !important;    
     margin-top: 10px;;
+}
+
+
+/* All courses tabs */
+.base-courses .multi-column-view .course-org-list .favorites-group .element-card .element-details.summary .status-bar .basic-info {
+    height: unset !important;
+}
+
+/* BBCollab */
+/* .item-list__item-details > span, #siteWrap {
+    font-family: "Poppins" !important;
+    background-color: var(--bbdark) !important;
+}
+
+.item-list__item, .item-list__item {
+    background-color: var(--bbdark) !important;
+}
+
+.item-list__item--active .item-list__item-details .name {
+    color: black !important;
+} */
+
+/* Grades */
+.gradeTableNew .row:hover {
+    background-color: var(--bg) !important;
+    border-right: unset;
+    border-left: unset;
+}
+
+.gradeTableNew .row {
+    border: 1px solid var(--bbdark) !important;
 }
