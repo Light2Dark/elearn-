@@ -33,3 +33,12 @@ select {
     border-radius: 5px;
     margin-left: 10px;
 }
+
+#downloadButton {
+    margin-top: 5px;
+    border-radius: 5px;
+}
+
+#downloadButton:hover {
+    background-color: #a2b9df;
+}
