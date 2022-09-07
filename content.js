@@ -96,7 +96,9 @@ async function changeNav() {
     setToBlack(links)
     setToBlack(span)
 
-    navMenu.style.backgroundColor="black !important"
+    if (navMenu) {
+        navMenu.style.backgroundColor="black !important"
+    }
 }
 
 changeNav()
