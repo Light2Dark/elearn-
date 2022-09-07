@@ -12,10 +12,6 @@
     color: var(--fg) !important;
 } */
 
-* {
-    font-family: "Poppins" !important;
-}
-
 /* TOP header */
 #breadcrumbs {
     background-color: var(--bg) !important;

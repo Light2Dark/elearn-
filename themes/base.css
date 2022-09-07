@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,200;1,300;1,500;1,600;1,700;1,900&display=swap');
+
 :root {
     --bg: #00294e;
     --fg: #F4F2F3;
@@ -7,27 +9,20 @@
 }
 
 /* FONTS */
-@font-face {
+/* @font-face {
     font-family: 'Poppins';
     font-style: normal;
     font-weight: 300;
     src: url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,200;1,300;1,500;1,600;1,700;1,900&display=swap");
-}
-
-@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,200;1,300;1,500;1,600;1,700;1,900&display=swap');
-
-/* @font-face {
-    font-family: 'FontName';
-    font-style: normal;
-    font-weight: 700;
-    src: local('FontName Bold'), local('FontName-Bold'), url(https://fonts.gstatic.com/some-url.woff2) format('woff2');
 } */
+
+* {
+    font-family: "Poppins" !important;
+}
 
 #main-content, #main-content *:not(.guidance-overflow-wrapper) {
     background-color: var(--bg) !important;
     color: var(--fg);
-    /* font-family: fangsong, sans-serif; */
-    font-family: "Poppins" !important;
 }
 
 .base-courses.multi-column-view.course-org-list div {
@@ -58,7 +53,7 @@
 
 .bb-inner-wrap>header, #side-menu {
     background-color: black !important;
-    font-family: "Poppins" !important;
+    font-family: "Arial" !important;
 }
 
 h1.panel-title, #main-content h1, #main-content h1.panel-title {
