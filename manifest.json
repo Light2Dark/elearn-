@@ -26,7 +26,7 @@
     },
     "content_scripts": [{
         "matches": ["https://elearn.sunway.edu.my/*"],
-        "css": ["themes/base.css", "themes/courses.css"],
+        "css": ["themes/fonts.css", "themes/base.css", "themes/courses.css"],
         "js": ["content.js"],
         "run_at": "document_end",
         "all_frames": true
@@ -34,5 +34,11 @@
     "permissions": [
         "storage",
         "tabs"
+    ],
+    "web_accessible_resources": [
+        {
+          "resources": [ "themes/fonts/*", "themes/fonts.css", "themes/base.css", "themes/courses.css" ],
+          "matches": [ "https://elearn.sunway.edu.my/*" ]
+        }
     ]
 }
