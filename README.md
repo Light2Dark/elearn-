@@ -2,6 +2,7 @@
 
 This is a Chrome extension to make eLearn into Dark Mode :D and maybe add some other stuff like refresh session token so it doesn't log you out.
 
+(Note that this project is unaffiliated with Sunway University)
 
 ## Deployment
 
