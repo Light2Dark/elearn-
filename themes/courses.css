@@ -24,6 +24,7 @@
 #breadcrumbs #crumb_1 {
     color: var(--greeny) !important;
     font-size: 20px !important;
+    font-weight: 600;
 }
 
 #contentPanel {
@@ -175,10 +176,11 @@ li.clearfix div.details span, .item.clearfix h3 span {
     font-weight: 400 !important;
 }
 
-li.clearfix h3.item,  .announcementList .item, .announcementList-read .item, #announcementList .item {
+li.clearfix h3.item, .announcementList .item, .announcementList-read .item, #announcementList .item {
     font-size: 20px !important;
     color: #b8ddff !important;
     background-color: none !important;
+    font-weight: 600;
 }
 
 .announcementInfo p {
