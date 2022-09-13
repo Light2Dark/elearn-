@@ -37,7 +37,7 @@
     ],
     "web_accessible_resources": [
         {
-          "resources": [ "themes/fonts/*", "themes/fonts.css", "themes/base.css", "themes/courses.css" ],
+          "resources": [ "themes/fonts/*", "themes/fonts.css"],
           "matches": [ "https://elearn.sunway.edu.my/*" ]
         }
     ]
