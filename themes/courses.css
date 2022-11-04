@@ -47,6 +47,7 @@
     border: 0 !important;
     border-radius: 10px !important;
     color: var(--fg) !important;
+    padding-top: 0px !important;
 }
 
 /* Each column */
@@ -271,8 +272,22 @@ li.clearfix h3.item, .announcementList .item, .announcementList-read .item, #ann
 .vtbegenerated table, th, td {
     border: 1px solid rgb(253, 215, 215) !important;
     border-radius: 5px !important;
+    color: var(--fg) !important;
 }
 
-.vtbegenerated p {
-    color: var(--fg) !important;
+.vtbegenerated a {
+    color: #1fa1e5 !important;
+}
+
+
+.infoListWrapper {
+    background-color: var(--bbdark) !important;
+    border: 4px solid #4a004a !important;
+    margin: 0 !important;
+}
+
+.infoList li div h3 {
+    color: var(--greeny) !important;
+    font-size: medium !important;
+    font-weight: 600 !important;
 }
