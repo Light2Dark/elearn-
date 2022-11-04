@@ -265,3 +265,14 @@ li.clearfix h3.item, .announcementList .item, .announcementList-read .item, #ann
 .gradeTableNew .row {
     border: 1px solid var(--bbdark) !important;
 }
+
+
+/* Course content page */
+.vtbegenerated table, th, td {
+    border: 1px solid rgb(253, 215, 215) !important;
+    border-radius: 5px !important;
+}
+
+.vtbegenerated p {
+    color: var(--fg) !important;
+}

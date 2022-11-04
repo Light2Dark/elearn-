@@ -15,6 +15,10 @@
     color: var(--fg);
 }
 
+html {
+    background-color: var(--bg) !important;
+}
+
 .base-courses.multi-column-view.course-org-list div {
     border: 2px solid black;
     border-radius: 5px;
