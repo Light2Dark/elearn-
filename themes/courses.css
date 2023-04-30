@@ -50,6 +50,10 @@
     padding-top: 0px !important;
 }
 
+#dataCollectionContainer {
+    background-color: var(--bg) !important;
+}
+
 /* Each column */
 .portlet.clearfix {
     border-radius: 5px !important;
@@ -290,4 +294,39 @@ li.clearfix h3.item, .announcementList .item, .announcementList-read .item, #ann
     color: var(--greeny) !important;
     font-size: medium !important;
     font-weight: 600 !important;
+}
+
+/* Submissions Tab */
+#step1, #stepcontent1, #stepcontent1 > ol{
+    background-color: black;
+}
+
+div[id*="step"], div[id*="stepcontent"], #stepcontent2, #stepcontent1, #stepcontent3, #stepcontent4, #stepcontent5, #stepcontent5 {
+    background-color: black !important;
+}
+
+h3.steptitle {
+    color: var(--purple) !important;
+    background-color: black !important;
+}
+
+.metaLabel, .metaSubInfo {
+    color: var(--fg) !important;
+}
+
+.submitStepBottom, .submitStepBottom p.taskbuttonhelp {
+    background-color: var(--bg) !important;
+    color: var(--greeny) !important;
+}
+
+/* Grades */
+fieldset.info, div.info {
+    background: black;
+    margin: 0;
+    padding: 10px;
+}
+
+fieldset.info div.label {
+    color: var(--purple) !important;
+    font-weight: bold !important;
 }
